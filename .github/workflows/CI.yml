@@ -14,7 +14,7 @@ jobs:
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4'  # Sesuaikan versi PHP sesuai kebutuhan Anda
+        php-version: '8.1'  # Sesuaikan versi PHP sesuai kebutuhan Anda
 
     - name: Give execute permission to PHPUnit
       run: chmod +x ./vendor/bin/phpunit
