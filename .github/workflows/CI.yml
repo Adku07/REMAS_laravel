@@ -1,0 +1,29 @@
+name: CI/CD
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'  # Sesuaikan versi PHP sesuai kebutuhan Anda
+
+    - name: Install Composer dependencies
+      run: composer install
+
+    - name: Run PHPUnit tests
+      run: ./vendor/bin/phpunit --configuration phpunit.xml
+
+    - name: Upload SQL file
+      uses: actions/upload-artifact@v2
+      with:
+        name: database
+        path: pelatihan.sql
