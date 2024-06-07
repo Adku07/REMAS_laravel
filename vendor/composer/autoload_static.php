@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96
+class ComposerStaticInitec315152869e6ea5770a8df779f19a98
 {
     public static $files = array (
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
@@ -20,6 +20,10 @@ class ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96
         array (
             'DeepCopy\\' => 9,
         ),
+        'A' => 
+        array (
+            'Adam\\Pelatihan1\\' => 16,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -30,6 +34,10 @@ class ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Adam\\Pelatihan1\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
@@ -1204,9 +1212,9 @@ class ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit2c92e5c19a80c7bd9092fc4da87cbf96::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitec315152869e6ea5770a8df779f19a98::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitec315152869e6ea5770a8df779f19a98::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitec315152869e6ea5770a8df779f19a98::$classMap;
 
         }, null, ClassLoader::class);
     }

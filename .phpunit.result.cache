@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"ExampleTest::testExample":0.008}}
+{"version":1,"defects":{"ExampleTest::testKoneksiDatabase":8,"ExampleTest::testQueryDatabase":8,"ExampleTest::testEditAboutForm":7,"ExampleTest::testCourseResultIsEmpty":8},"times":{"ExampleTest::testExample":0.137,"ExampleTest::testKoneksiDatabase":0.044,"ExampleTest::testQueryDatabase":0.063,"ExampleTest::testEditAboutForm":0.063,"ExampleTest::testButtonLink":0.005,"ExampleTest::testAboutDataIsNull":0.055,"ExampleTest::testCourseResultIsEmpty":0.017}}

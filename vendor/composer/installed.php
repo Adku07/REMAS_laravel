@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'adam/pelatihan',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'adam/pelatihan1',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '84cc31cecd0662fb5e45746c51814b8897a6add4',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'adam/pelatihan' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'adam/pelatihan1' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '84cc31cecd0662fb5e45746c51814b8897a6add4',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
