@@ -16,9 +16,6 @@ jobs:
       with:
         php-version: '7.4'  # Sesuaikan versi PHP sesuai kebutuhan Anda
 
-    - name: Install Composer dependencies
-      run: composer install
-
     - name: Run PHPUnit tests
       run: ./vendor/bin/phpunit --configuration phpunit.xml
 
